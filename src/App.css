@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  text-align: center;
+}
+
+.creature-item {
+  width: 200px;
+  min-height: 200px;
+
+  border: solid blue 1px;
+
+  margin: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.creature-item p {
+  text-align: center;
+}
+
+.creature-item img {
+  width: 100px;
+  height: 100px;
+}
+
+.creatures-list {
+  display: flex;
+  flex-direction: row;
+
+  margin: 10px;
+  flex-wrap: wrap;
+}
